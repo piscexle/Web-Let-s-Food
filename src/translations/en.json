@@ -1,4 +1,33 @@
 {
+    "home-header": {
+        "home": "Home",
+        "menu": "Menu",
+        "howItWorks": "How It Works",
+        "about": "About",
+        "contact": "Contact",
+        "signin": "Sign in"
+    },
+    "slider": {
+        "header-slider": "Be The Fastest In Delivery Your Food",
+        "sub-header-slider": "We only focus on food delivery service, many delicious dishes for you to choose from.",
+        "btn-slider": "Get Started"
+    },
+    "service": {
+        "title-service": "How it works",
+        "header-service": "What We Serve",
+        "sub-header-service": "Product Quality Is Our Priority, And Always Guarantees Halal And Safety Until It Is In Your Hands.",
+        "header-card-order": "Easy To Order",
+        "sub-header-card-order": "You only order through the app",
+        "header-card-delivery": "Fastest Delivery",
+        "sub-header-card-delivery": "Delivery will be on time",
+        "header-card-quality": "Best Quality",
+        "sub-header-card-quality": "The best quality of food for you"
+    },
+    "popular-menu": {
+        "title-menu": "Our menu",
+        "header-menu": "Our Popular Menu",
+        "sub-header-menu": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam"
+    },
     "common": {
         "add": "Add",
         "edit": "Edit",

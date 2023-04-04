@@ -1,4 +1,33 @@
 {
+    "home-header": {
+        "home": "Trang chính",
+        "menu": "Thực đơn",
+        "howItWorks": "Quy trình",
+        "about": "Chúng tôi",
+        "contact": "Liên hệ",
+        "signin": "Đăng nhập"
+    },
+    "slider": {
+        "header-slider": "Chuyên gia giao đồ ăn nhanh nhất của bạn",
+        "sub-header-slider": "Chúng tôi chỉ tập trung vào dịch vụ giao đồ ăn, nhiều món ăn cho bạn lựa chọn",
+        "btn-slider": "Bắt đầu"
+    },
+    "service": {
+        "title-service": "Quy trình",
+        "header-service": "Chúng tôi phục vụ bạn",
+        "sub-header-service": "Chất lượng sản phẩm là ưu tiên hàng đầu của chúng tôi và luôn đảm bảo chất lượng và an toàn cho đến khi đến tay bạn",
+        "header-card-order": "Dễ đặt hàng",
+        "sub-header-card-order": "Bạn chỉ cần đặt hàng qua ứng dụng",
+        "header-card-delivery": "Giao hàng nhanh nhất",
+        "sub-header-card-delivery": "Giao hàng đúng giờ",
+        "header-card-quality": "Chất lượng tốt nhất",
+        "sub-header-card-quality": "Chất lượng thực phẩm tốt nhất cho bạn"
+    },
+    "popular-menu": {
+        "title-menu": "Thực đơn",
+        "header-menu": "Thực đơn phổ biến chúng tôi",
+        "sub-header-menu": "Những món ăn ngon lành trong bếp của quán sẽ được giao đến bạn theo cách chuyên nghiệp nhất!"
+    },
     "common": {
         "add": "Thêm",
         "edit": "Sửa",
