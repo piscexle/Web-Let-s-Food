@@ -1,0 +1,34 @@
+.contact-container {
+    background: url(../../../assets/footer-image@2x.svg) top center repeat;
+    width: 100%;
+
+    .container {
+        .row {
+            .contact-logo {
+                .sub-footer {
+                    font-weight: 400;
+                    font-size: 20px;
+                    color: rgba(29, 29, 29, 0.7);
+                }
+            }
+
+            .link-nav {
+                h5 {
+                    font-weight: 600;
+                    font-size: 20px;
+                }
+
+                .list-unstyled {
+                    a {
+                        font-weight: 400;
+                        font-size: 18px;
+                        color: rgba(29, 29, 29, 0.7);
+                        text-decoration: none;
+                    }
+
+                }
+            }
+        }
+    }
+
+}

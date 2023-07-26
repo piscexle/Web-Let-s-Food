@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import { Redirect } from 'react-router-dom';
 import { connect } from 'react-redux';
+import { addArticle } from '../store/actions/userActions';
 
 class Home extends Component {
 
     render() {
         const { isLoggedIn } = this.props;
+
         let linkToRedirect = isLoggedIn ? '/system/user-manage' : '/home';
 
         return (
@@ -23,6 +25,7 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
     return {
+
     };
 };
 

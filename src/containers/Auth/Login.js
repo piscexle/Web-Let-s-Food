@@ -67,8 +67,6 @@ class Login extends Component {
 
     render() {
         //JSX
-
-
         return (
             <div className='login-background'>
                 <div className='login-container'>
@@ -105,7 +103,7 @@ class Login extends Component {
                                 ></input>
                                 <span
                                     onClick={() => this.handleShowHidePassword()}
-                                ><i class={this.state.isShowPassword ? "far fa-eye" : "far fa-eye-slash"}></i></span>
+                                ><i className={this.state.isShowPassword ? "far fa-eye" : "far fa-eye-slash"}></i></span>
                             </div>
                         </div>
 

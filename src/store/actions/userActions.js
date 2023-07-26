@@ -18,11 +18,16 @@ export const addArticle = (article) => {
     };
 };
 
+
 export const userLoginFail = () => ({
     type: actionTypes.ADMIN_LOGIN_FAIL
 })
 
 export const processLogout = () => ({
     type: actionTypes.PROCESS_LOGOUT
+})
+
+export const processLogin = () => ({
+    type: actionTypes.USER_LOGIN_SUCCESS
 })
 

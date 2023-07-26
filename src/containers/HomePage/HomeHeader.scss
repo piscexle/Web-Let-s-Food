@@ -2,8 +2,8 @@
     margin: 0;
     box-shadow: none;
     box-sizing: border-box;
-    overflow: scroll;
-    height: 754px;
+    // overflow: scroll;
+    // height: 754px;
 
     .btn {
         background-color: rgba(255, 203, 69, 1);
@@ -30,6 +30,7 @@
         top: 0px;
         background: url(../../assets/footer-image@2x.svg) left bottom;
         position: fixed;
+        z-index: 100;
 
 
         .home-header-content {
@@ -135,7 +136,10 @@
 
                 &.active {
                     opacity: 1;
-                    color: rgba(255, 203, 69, 1);
+
+                    span {
+                        color: rgba(255, 203, 69, 1);
+                    }
                 }
             }
 
@@ -144,7 +148,11 @@
 
                 &.active {
                     opacity: 1;
-                    color: rgba(255, 203, 69, 1);
+
+                    span {
+
+                        color: rgba(255, 203, 69, 1);
+                    }
                 }
             }
 
@@ -234,198 +242,202 @@
 
         .section-sub-heading {
             width: 611px;
-            font-weight: 500;
             font-size: 22px;
             color: rgba(29, 29, 29, 0.7);
             margin-bottom: 32px;
             text-align: center;
         }
 
-        .card-service-container {
-            display: flex;
-            justify-content: space-between;
-            width: 1032px;
+        // .card-service-container {
+        //     display: flex;
+        //     justify-content: space-between;
+        //     width: 1032px;
 
-            .card-service {
-                display: flex;
-                flex-direction: column;
-                text-align: center;
-                align-items: center;
+        //     .card-service {
+        //         display: flex;
+        //         flex-direction: column;
+        //         text-align: center;
+        //         align-items: center;
 
-                .img-card {
-                    width: 180px;
-                    height: 180px;
-                    margin-bottom: 24px;
-                }
+        //         .img-card {
+        //             width: 180px;
+        //             height: 180px;
+        //             margin-bottom: 24px;
+        //         }
 
-                .header-card-service {
-                    font-weight: 600;
-                    font-size: 28px;
-                    margin-bottom: 15px;
-                }
+        //         .header-card-service {
+        //             font-weight: 600;
+        //             font-size: 28px;
+        //             margin-bottom: 15px;
+        //         }
 
-                .sub-header-card-service {
-                    color: rgba(29, 29, 29, 0.7);
-                }
-            }
-        }
+        //         .sub-header-card-service {
+        //             color: rgba(29, 29, 29, 0.7);
+        //             font-size: 20px;
+        //         }
+        //     }
+        // }
 
-        .card-product-content {
-            display: flex;
+        // .card-product-content {
+        //     display: flex;
 
-            .card-product {
-                width: 280px;
-                height: 372px;
-                box-shadow: 2px 5px 12px rgba(0, 0, 0, 0.15);
-                background-color: #fff9ea;
-                border-radius: 10px;
-                display: flex;
-                flex-direction: column;
-                justify-content: space-around;
-                align-items: center;
-                margin: 0 12px;
+        //     .card-product {
+        //         width: 280px;
+        //         height: 372px;
+        //         box-shadow: 2px 5px 12px rgba(0, 0, 0, 0.15);
+        //         background-color: #fff9ea;
+        //         border-radius: 10px;
+        //         display: flex;
+        //         flex-direction: column;
+        //         justify-content: space-around;
+        //         align-items: center;
+        //         margin: 0 12px;
 
 
-                .img-product-1 {
-                    background: url(../../assets/menu/Mie-Ramen.svg) center center no-repeat;
-                    width: 100%;
-                    height: 100%;
-                }
+        //         .img-product-1 {
+        //             background: url(../../assets/menu/Mie-Ramen.svg) center center no-repeat;
+        //             width: 100%;
+        //             height: 100%;
+        //         }
 
-                .img-product-2 {
-                    background: url(../../assets/menu/salad-tahu.svg) center center no-repeat;
-                    width: 100%;
-                    height: 100%;
-                }
+        //         .img-product-2 {
+        //             background: url(../../assets/menu/salad-tahu.svg) center center no-repeat;
+        //             width: 100%;
+        //             height: 100%;
+        //         }
 
-                .img-product-3 {
-                    background: url(../../assets/menu/roti-bakar.svg) center center no-repeat;
-                    width: 100%;
-                    height: 100%;
-                }
+        //         .img-product-3 {
+        //             background: url(../../assets/menu/roti-bakar.svg) center center no-repeat;
+        //             width: 100%;
+        //             height: 100%;
+        //         }
 
-                .img-product-4 {
-                    background: url(../../assets/menu/spaghetti.svg) center center no-repeat;
-                    width: 100%;
-                    height: 100%;
-                }
+        //         .img-product-4 {
+        //             background: url(../../assets/menu/spaghetti.svg) center center no-repeat;
+        //             width: 100%;
+        //             height: 100%;
+        //         }
 
-                .background-product {
-                    background-color: white;
-                    width: 100%;
-                    height: 125px;
-                    border-top-right-radius: 50%;
-                    border-top-left-radius: 50%;
-                    border-bottom-left-radius: 10px;
-                    border-bottom-right-radius: 10px;
+        //         .background-product {
+        //             background-color: white;
+        //             width: 100%;
+        //             height: 125px;
+        //             border-top-right-radius: 50%;
+        //             border-top-left-radius: 50%;
+        //             border-bottom-left-radius: 10px;
+        //             border-bottom-right-radius: 10px;
 
-                    .title-product {
-                        margin: 14px 0;
-                        text-align: center;
+        //             .title-product {
+        //                 margin: 14px 0;
+        //                 text-align: center;
 
-                        .heading-product {
-                            color: #1D1D1D;
-                            font-weight: 600;
-                            font-size: 20px;
-                        }
+        //                 .heading-product {
+        //                     color: #1D1D1D;
+        //                     font-weight: 600;
+        //                     font-size: 20px;
+        //                 }
 
-                        .sub-heading-product {
-                            font-weight: 400;
-                            font-size: 16px;
-                            color: rgba(29, 29, 29, 0.7);
-                        }
-                    }
+        //                 .sub-heading-product {
+        //                     font-weight: 400;
+        //                     font-size: 16px;
+        //                     color: rgba(29, 29, 29, 0.7);
+        //                 }
+        //             }
 
-                    .last-product {
-                        display: flex;
-                        justify-content: space-between;
-                        width: 100%;
+        //             .last-product {
+        //                 display: flex;
+        //                 justify-content: space-between;
+        //                 width: 100%;
 
-                        .price-product {
-                            margin: 0 0 10px 22px;
-                            font-weight: 600;
-                            font-size: 22px;
-                            color: rgba(29, 29, 29, 1);
-                        }
+        //                 .price-product {
+        //                     margin: 0 0 10px 22px;
+        //                     font-weight: 600;
+        //                     font-size: 22px;
+        //                     color: rgba(29, 29, 29, 1);
+        //                 }
 
-                        .like-product {
-                            margin: 0 22px 10px 0;
-                            font-size: 22px;
-                            color: rgba(29, 29, 29, 0.7);
-                            cursor: pointer;
+        //                 .like-product {
+        //                     margin: 0 22px 10px 0;
+        //                     font-size: 22px;
+        //                     color: rgba(29, 29, 29, 0.7);
+        //                     cursor: pointer;
 
-                            &.like-active {
-                                color: rgba(255, 203, 69, 1);
-                            }
-                        }
-                    }
-                }
-            }
-        }
+        //                     &.like-active {
+        //                         color: rgba(255, 203, 69, 1);
+        //                     }
+        //                 }
+        //             }
+        //         }
+        //     }
+        // }
 
-        .btn-menu {
-            margin-top: 60px;
-        }
+        // .btn-menu {
+        //     margin-top: 60px;
+        // }
     }
 
-    .content-about {
-        display: flex;
-        padding: 200px 170px 80px;
+    // .content-about {
+    //     display: flex;
+    //     padding: 160px 170px 80px;
 
-        .img-about {
-            background: url(../../assets/about/Group7@2x.svg) center center no-repeat;
-            width: 431px;
-            height: 410px;
-        }
+    //     .img-about {
+    //         background: url(../../assets/about/Group7@2x.svg) center center no-repeat;
+    //         width: 431px;
+    //         height: 410px;
+    //     }
 
-        .about-header {
-            margin: 18px 0 32px 100px;
+    //     .about-header {
+    //         margin: 18px 0 32px 100px;
 
-            .about-title {
-                color: rgba(255, 203, 69, 1);
-                font-weight: 500;
-                font-size: 22px;
-            }
+    //         .about-title {
+    //             color: rgba(255, 203, 69, 1);
+    //             font-weight: 500;
+    //             font-size: 22px;
+    //         }
 
-            .about-heading {
-                font-weight: 700;
-                font-size: 32px;
-                color: #1D1D1D;
-                width: 481px;
-            }
-        }
-    }
+    //         .about-heading {
+    //             font-weight: 700;
+    //             font-size: 32px;
+    //             color: #1D1D1D;
+    //             width: 481px;
+    //         }
+    //     }
+    // }
 
-    .discount-container {
-        margin-bottom: 130px;
-        background: url(../../assets/discount.svg) center center no-repeat;
-        width: 100%;
-        height: 332px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    // .col-md-4.img-fluid.rounded-start {
+    //     background: url(../../assets/about/Group7@2x.svg);
+    // }
+
+    // .discount-container {
+    //     margin-bottom: 130px;
+    //     background: url(../../assets/discount.svg) center center no-repeat;
+    //     width: 100%;
+    //     height: 332px;
+    //     display: flex;
+    //     flex-direction: column;
+    //     justify-content: center;
+    //     align-items: center;
 
 
-        .heading-discount {
-            color: #ffffff;
-            font-weight: 700;
-            font-size: 32px;
-            width: 524px;
-            text-align: center;
-            margin-bottom: 30px;
-        }
+    //     .heading-discount {
+    //         color: #ffffff;
+    //         font-weight: 700;
+    //         font-size: 32px;
+    //         width: 524px;
+    //         text-align: center;
+    //         margin-bottom: 30px;
+    //     }
 
-        .btn-discount {
-            .icon-signup {
-                background: url(../../assets/header/clarity_sign-in-line@2x.svg) center center no-repeat;
-                width: 15px;
-                height: 17px;
-                margin-right: 10px;
-            }
-        }
+    //     .btn-discount {
+    //         .icon-signup {
+    //             background: url(../../assets/header/clarity_sign-in-line@2x.svg) center center no-repeat;
+    //             width: 15px;
+    //             height: 17px;
+    //             margin-right: 10px;
+    //         }
+    //     }
 
-    }
+    // }
 
     .contact-container {
         background: url(../../assets/footer-image@2x.svg) top center repeat;

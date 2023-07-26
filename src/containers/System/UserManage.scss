@@ -25,3 +25,65 @@
     background-color: #04AA6D;
     color: white;
 }
+
+.btn-edit {
+    width: 50px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: orange;
+
+    &:hover {
+        background-color: transparent !important;
+        color: orange !important;
+    }
+}
+
+.btn-delete {
+    width: 50px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: red;
+
+    &:hover {
+        background-color: transparent !important;
+        color: red !important;
+    }
+}
+
+.modal-user-container {
+    .modal-header {
+        button {
+            background-color: transparent;
+            border: none;
+            color: white;
+            font-size: 25px;
+            padding: 5px 5px;
+        }
+    }
+
+    .modal-user-body {
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+
+        .input-container {
+            display: flex;
+            flex-direction: column;
+            width: 49%;
+
+            &.max-width-input {
+                width: 100%;
+            }
+
+            input {
+                border: 1px solid gray;
+                height: 30px;
+                outline: none;
+                padding: 0 10px;
+                margin-top: 4px;
+            }
+        }
+    }
+}

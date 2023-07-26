@@ -1,0 +1,57 @@
+.content-about {
+    padding: 130px 0 65px;
+    border: none;
+    justify-content: center;
+
+    .img-about {
+        background: url(../../../assets/about/Group7@2x.svg) center center no-repeat;
+        width: 431px;
+        height: 410px;
+        object-fit: contain;
+    }
+
+    .card-body {
+        .section-title {
+            color: rgba(255, 203, 69, 1);
+            font-weight: 500;
+            font-size: 22px;
+        }
+
+        .section-heading {
+            font-weight: 700;
+            font-size: 32px;
+            color: #1D1D1D;
+            margin-bottom: 26px;
+        }
+    }
+
+    .about-header {
+        margin: 18px 0 32px 100px;
+
+        .about-title {
+            color: rgba(255, 203, 69, 1);
+            font-weight: 500;
+            font-size: 22px;
+        }
+
+        .about-heading {
+            font-weight: 700;
+            font-size: 32px;
+            color: #1D1D1D;
+            width: 481px;
+        }
+    }
+
+    .card {
+        background: #F1F1F1;
+        border-radius: 10px;
+        border: none;
+
+        .card-title {
+            font-weight: 600;
+            font-size: 20px;
+        }
+
+    }
+
+}

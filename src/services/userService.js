@@ -9,4 +9,33 @@ const getAllUsers = (inputId) => {
     })
 }
 
-export { handleLoginApi, getAllUsers }
+const createNewUsersService = (data) => {
+    return axios.post(`/api/create-new-user`, data)
+}
+
+const deleteUserService = (userId) => {
+    return axios.delete(`/api/delete-user`, {
+        data: {
+            id: userId
+        }
+    })
+}
+
+const editUserService = (inputData) => {
+    return axios.put(`/api/edit-user`, inputData)
+}
+
+const getAllCodeService = (inputType) => {
+    return axios.get(`/api/allcode?type=${inputType}`)
+}
+
+const createNewFood = (data) => {
+    return axios.post(`/api/create-new-food`, data)
+}
+
+export {
+    handleLoginApi, getAllUsers,
+    createNewUsersService, deleteUserService,
+    editUserService, getAllCodeService,
+    createNewFood
+}
