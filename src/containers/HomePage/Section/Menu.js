@@ -42,7 +42,7 @@ class Menu extends Component {
                         <div className='img-product'></div>
                         <div className='background-product'>
                             <div className='title-product'>
-                                <div className='heading-product'><FormattedMessage id="popular-menu.heading-food-2" /></div>
+                                <div className='heading-product'><FormattedMessage id="popular-menu.heading-food-1" /></div>
                                 <div className='sub-heading-product'><FormattedMessage id="popular-menu.sub-food-1" /></div>
                             </div>
                             <div className='last-product'>
